@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <h1>Contact Me</h1>
+    <ul>
+        <li>Address: 
+            <ul style="list-style-type:none;">
+                <li>Shahin Hemmati</li>
+                <li>Hamlingdorfer weg 1a</li>
+                <li>33829 Borgholzhausen</li>
+            </ul>
+            
+        </li>
+        <li>Mobile: 004917669480141</li>
+        <li>Email: shahin.ccie1989@gmail.com</li>
+        <li><a href="" target="_blank" rel="noopener noreferrer">Linkedin</a></li>
+    </ul>
+
+    <hr>
+
+    <!-- In order to make the mailto: work for windows user,
+         we have to enable the protocol handlers in google chrome.
+         setting -> privacy & security -> site settings -> Additional permissions ->
+         protocol handlers -> choose "sites can ask to handle protocols" ->
+         and remove gmail from email so gmail can can handle mail requests.
+         Then inside gmail.com, next to bookmark, Allow gmail to open all email links.
+    -->
+    <form class="" action="mailto:shahin.ccie1989@gmail.com" method="post" enctype="text/plain">
+        <label>Your Name:</label>
+        <input type="text" name="yourName" value=""><br>
+        <label>Your Email:</label>
+        <input type="email" name="yourEmail" value=""><br>
+        <label>Your Message:</label><br>
+        <textarea name="yourMessage" rows="10" cols="40"></textarea><br>
+        <input type="submit" name="">
+    </form>
+    
+</body>
+</html>
+

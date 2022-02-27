@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shahin's Personal Site</title>
+    <!-- style was taken from w3school -->
+    <!-- https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_intro -->
+    <style>
+        h3 {
+            font-family: arial, sans-serif;
+        }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            /* width: 100%; */
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- The description that appear in google search is what we write in HTML head like: -->
+    <!-- <meta name="description" content="The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps."> -->
+
+    <!------------->
+    <!-- Heading -->
+    <!------------->
+    <table cellspacing="20">
+        <tr>
+            <td><img src="./img/profile-picture-modified.png" alt="image of shahin hemmati" width="200"></td>
+            <td>
+                <h1>Shahin Hemmati</h1>
+                <p><em>The Next <strong><a href="https://www.cncf.io/" target="_blank" rel="noopener noreferrer">DevOps
+                                Engineer</a></strong></em></p>
+                <p>I am a linux administrator and a Cloud&#128153; practitioner.</p>
+            </td>
+        </tr>
+    </table>
+
+    <!--------------->
+    <!-- Education -->
+    <!--------------->
+    <hr>
+    <h3>Education</h3>
+    <ul>
+        <li>Cisco CCNA, CCNP, and part of CCIE</li>
+        <li>Windows server 2012</li>
+        <li>AWS Certified Cloud
+            Practitioner <a href="https://www.credly.com/badges/3107d16c-1e04-4167-9806-50be7380199e">Verify Here</a>
+        </li>
+        <li>CompTIA Linux+ Certified <a href="https://www.credly.com/badges/76ad6a31-aa2c-4a56-b17f-ed298ca94a42">Verify
+                Here</a>
+        </li>
+        <li>Currently attending the Orientaion class by Digital Career Institute</li>
+    </ul>
+
+    <hr>
+
+    <!-------------------->
+    <!-- Work experiece -->
+    <!-------------------->
+    <h3>Word Experience</h3>
+    <table border="1">
+        <!-- The theas is taken from the following website: -->
+        <!-- https://adrianroselli.com/2020/01/fixed-table-headers.html -->
+        <thead>
+            <tr>
+                <th>Duration</th>
+                <th>Job Title</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">2012 - 2014</td>
+                <td>Help desk</td>
+            </tr>
+            <tr>
+                <td>Network administrator</td>
+            </tr>
+            <tr>
+                <td>2015 - 2016</td>
+                <td>Network administrator</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <!------------>
+    <!-- Skills -->
+    <!------------>
+    <h3>Skills</h3>
+    <table border="1">
+        <tr>
+            <th>Tecnical Skills</th>
+            <th>Rating</th>
+        </tr>
+        <tr>
+            <td>Cisco Networking</td>
+            <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td>Linux Administration</td>
+            <td>⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td>Cloud Administration</td>
+            <td>⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td>Windows Administration</td>
+            <td>⭐⭐</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <table border="1">
+        <tr>
+            <th>Other Skills</th>
+            <th>Rating</th>
+        </tr>
+        <tr>
+            <td>Communication</td>
+            <td>⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td>Adobe Premiere</td>
+            <td>⭐⭐⭐</td>
+        </tr>
+    </table>
+
+
+    <!------------>
+    <!-- Footer -->
+    <!------------>
+    <hr>
+    <a href="hobbies.html" target="_blank" rel="noopener noreferrer">My Hobbies</a>
+    <a href="contact.html" target="_blank" rel="noopener noreferrer">Contact Me</a>
+
+</body>
+
+</html>
